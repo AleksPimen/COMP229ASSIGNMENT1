@@ -1,8 +1,8 @@
 export default function Project() {
-         return (
-           <>
-             <p>My Projects</p>
-           </>
-         );
-       }
+     return (
+      <>
+           <p>My Projects</p>
+           </>
+     );
+}
      
