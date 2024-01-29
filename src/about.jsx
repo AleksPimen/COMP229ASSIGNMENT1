@@ -1,10 +1,10 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+
 import portrait from "../src/images/portrait.jpg";
 import '../src/index.css';
 import '../src/about.css';
 
-export default function Home() {
+export default function About() {
   const [showResume, setShowResume] = useState(false);
 
   const toggleResume = () => {
