@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import programming from "../src/images/programming.jpg";
 import '../src/index.css';
+import '../src/home.css';
 
 export default function Home() {
   return (

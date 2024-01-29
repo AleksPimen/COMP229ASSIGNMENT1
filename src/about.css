@@ -1,0 +1,40 @@
+
+.portraitImage {
+    max-width: 200%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .resumeSection {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .resumeBar {
+    font-size: 1.5rem;
+    padding: 15px 20px;
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    color: rgb(23, 169, 185);
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .resumeBar:hover {
+    background-color: #5f5f5f;
+  }
+  
+  .resumeBar:focus,
+  .resumeBar:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 4px rgb(23, 169, 185);
+  }
+  
+  .resumeBar.active {
+    background-color: #5f5f5f;
+    color: #2a2a2a;
+  }
+  
