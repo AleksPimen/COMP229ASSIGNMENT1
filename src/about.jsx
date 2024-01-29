@@ -14,7 +14,8 @@ export default function About() {
   return (
     <section id="intro" className="introContainer">
       <div className="introContentLeft">
-        <br />
+      <br />
+        
         <span className="introText">
           <span className="introName">Aleksandr Pimenov</span>
           <p className="introPara">
@@ -35,7 +36,7 @@ export default function About() {
           <iframe
             title="Resume"
             src="../src/images/resumepdf.pdf"
-            width="200%"
+            width="300%"
             height="800px"
           ></iframe>
         )}

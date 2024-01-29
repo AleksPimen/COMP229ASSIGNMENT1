@@ -1,7 +1,9 @@
 
 .portraitImage {
-    max-width: 200%;
+    max-width: 300%;
     height: auto;
+    margin-top: 100px;
+    
     border-radius: 10px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
   }
@@ -14,6 +16,7 @@
   .resumeBar {
     font-size: 1.5rem;
     padding: 15px 20px;
+    
     background-color: #2a2a2a;
     border-radius: 10px;
     color: rgb(23, 169, 185);
@@ -31,10 +34,40 @@
   .resumeBar:focus-visible {
     outline: none;
     box-shadow: 0 0 0 4px rgb(23, 169, 185);
+    
   }
   
   .resumeBar.active {
     background-color: #5f5f5f;
     color: #2a2a2a;
+    
+  }
+
+  .btnImg{
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1rem;
+  }
+  .introContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   
+  .introContentLeft {
+    width: 50%;
+    padding: 3em;
+    padding-top: 1em;
+    font-size: 3em;
+    font-weight: 700;
+  }
+  
+  .introContentRight {
+    width: 50%; 
+    padding: 3em;
+    padding-top: 1em;
+    font-size: 3em;
+    margin-left: px;
+    font-weight: 700;
+    text-align: right;
+  }  

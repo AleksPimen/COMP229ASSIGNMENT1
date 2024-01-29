@@ -1,0 +1,33 @@
+#ffp{
+
+    max-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    border-radius: 10px;
+    background: #2a2a2a;
+
+}
+
+label{
+    font-size:xx-large;
+    
+}
+
+input{
+    font-size: x-large;
+    border-radius: 10px;
+
+}
+
+.submit{
+    font-size:xx-large;
+    
+}
+
+p,a{
+    font-size:x-large;
+    text-align: center;
+}
